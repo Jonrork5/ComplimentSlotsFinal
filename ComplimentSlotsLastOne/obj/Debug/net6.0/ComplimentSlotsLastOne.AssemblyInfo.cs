@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComplimentSlotsLastOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db9b5ef4466c6a14fc07e7ca75f217ce469052ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8efbfb896763d00e997611b319a410924ecd9fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComplimentSlotsLastOne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComplimentSlotsLastOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
