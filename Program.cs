@@ -28,7 +28,7 @@ namespace ComplimentSlots
                         var adjective = GetRandomWord(context.Adjectives);
                         var adjectiveVerb = GetRandomWord(context.AdjectiveVerbs);
                         var noun = GetRandomWord(context.Nouns);
-
+// Variables and word tables can be added without modifying logic or existing code adhering to the Open Closed Principle
                         string compliment = $"{adjective.Word.ToLower()} {adjectiveVerb.Word.ToLower()} {noun.Word.ToLower()}";
                         Console.WriteLine(compliment);
 
@@ -51,7 +51,7 @@ namespace ComplimentSlots
         {
             return set.ToList().OrderBy(r => Guid.NewGuid()).FirstOrDefault();
         }
-
+// This LogEvent Method's sole responsiblity is to log the event and nothing else, thus adhering to the first SOLID Principle
         static void LogEvent(string message)
         {
             string logPath = "complimentSlotsLog.txt";
